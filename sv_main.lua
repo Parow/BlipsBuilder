@@ -66,3 +66,12 @@ local count = 0
 for _,v in pairs(GetBlipData()) do count = count + 1 end
 
 print("[blipCreator] Successfully loaded: " .. count .. " blip(s).")
+
+
+TriggerEvent('es:addGroupCommand', 'blipsbuilder', 'admin', function(source)
+
+	TriggerClientEvent('bc:OpenMenu', source)
+end, function(source, _, _)
+local _source = source
+	TriggerClientEvent('chatMessage', _source, "SYSTEM", {255, 0, 0}, 'Insufficient permissions!')
+end, {help = ''})

@@ -364,11 +364,9 @@ Citizen.CreateThread(function()
         _menuPool:MouseControlsEnabled(false)
         _menuPool:MouseEdgeEnabled(false)
         _menuPool:ControlDisablingEnabled(false)
-        if (IsControlPressed(0, Keys["C"]) and IsControlPressed(0, Keys['LEFTCTRL'])) then
-            mainBlipMenu:Visible(true)
-        end
     end
 end)
 DrawBlipMenu()
+
 
 
