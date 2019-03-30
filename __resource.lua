@@ -1,7 +1,7 @@
 resource_manifest_version '05cfa83c-a124-4cfa-a768-c24a5811d8f9'
 
-name 'NativeUILua-Reloaded'
-description 'NativeUILua-Reloaded is UI library for FiveM designed specifically for making interface based on GTA:Online style. (Base source: https://github.com/FrazzIe/NativeUILua ) | (Base NativeUI : https://github.com/Guad/NativeUI) '
+name 'NativeUILuaLua-Reloaded'
+description 'NativeUILuaLua-Reloaded is UI library for FiveM designed specifically for making interface based on GTA:Online style. (Base source: https://github.com/FrazzIe/NativeUILuaLua ) | (Base NativeUILua : https://github.com/Guad/NativeUILua) '
 
 files {
     'html/images/blips/Blip_1.png',
@@ -462,59 +462,59 @@ files {
     'html/images/colors/Blip_colour_85.png'
     }
 client_scripts {
-    "NativeUI/Wrapper/Utility.lua",
+    "NativeUILua/Wrapper/Utility.lua",
 
-    "NativeUI/UIElements/UIVisual.lua",
-    "NativeUI/UIElements/UIResRectangle.lua",
-    "NativeUI/UIElements/UIResText.lua",
-    "NativeUI/UIElements/Sprite.lua",
+    "NativeUILua/UIElements/UIVisual.lua",
+    "NativeUILua/UIElements/UIResRectangle.lua",
+    "NativeUILua/UIElements/UIResText.lua",
+    "NativeUILua/UIElements/Sprite.lua",
 }
 
 client_scripts {
-    "NativeUI/UIMenu/elements/Badge.lua",
-    "NativeUI/UIMenu/elements/Colours.lua",
-    "NativeUI/UIMenu/elements/ColoursPanel.lua",
-    "NativeUI/UIMenu/elements/StringMeasurer.lua",
+    "NativeUILua/UIMenu/elements/Badge.lua",
+    "NativeUILua/UIMenu/elements/Colours.lua",
+    "NativeUILua/UIMenu/elements/ColoursPanel.lua",
+    "NativeUILua/UIMenu/elements/StringMeasurer.lua",
 
-    "NativeUI/UIMenu/items/UIMenuItem.lua",
-    "NativeUI/UIMenu/items/UIMenuCheckboxItem.lua",
-    "NativeUI/UIMenu/items/UIMenuListItem.lua",
-    "NativeUI/UIMenu/items/UIMenuSliderItem.lua",
-    "NativeUI/UIMenu/items/UIMenuSliderHeritageItem.lua",
-    "NativeUI/UIMenu/items/UIMenuColouredItem.lua",
+    "NativeUILua/UIMenu/items/UIMenuItem.lua",
+    "NativeUILua/UIMenu/items/UIMenuCheckboxItem.lua",
+    "NativeUILua/UIMenu/items/UIMenuListItem.lua",
+    "NativeUILua/UIMenu/items/UIMenuSliderItem.lua",
+    "NativeUILua/UIMenu/items/UIMenuSliderHeritageItem.lua",
+    "NativeUILua/UIMenu/items/UIMenuColouredItem.lua",
 
-    "NativeUI/UIMenu/items/UIMenuProgressItem.lua",
-    "NativeUI/UIMenu/items/UIMenuSliderProgressItem.lua",
+    "NativeUILua/UIMenu/items/UIMenuProgressItem.lua",
+    "NativeUILua/UIMenu/items/UIMenuSliderProgressItem.lua",
 
-    "NativeUI/UIMenu/windows/UIMenuHeritageWindow.lua",
+    "NativeUILua/UIMenu/windows/UIMenuHeritageWindow.lua",
 
-    "NativeUI/UIMenu/panels/UIMenuGridPanel.lua",
-    "NativeUI/UIMenu/panels/UIMenuHorizontalOneLineGridPanel.lua",
-    "NativeUI/UIMenu/panels/UIMenuVerticalOneLineGridPanel.lua",
-    "NativeUI/UIMenu/panels/UIMenuColourPanel.lua",
-    "NativeUI/UIMenu/panels/UIMenuPercentagePanel.lua",
-    "NativeUI/UIMenu/panels/UIMenuStatisticsPanel.lua",
+    "NativeUILua/UIMenu/panels/UIMenuGridPanel.lua",
+    "NativeUILua/UIMenu/panels/UIMenuHorizontalOneLineGridPanel.lua",
+    "NativeUILua/UIMenu/panels/UIMenuVerticalOneLineGridPanel.lua",
+    "NativeUILua/UIMenu/panels/UIMenuColourPanel.lua",
+    "NativeUILua/UIMenu/panels/UIMenuPercentagePanel.lua",
+    "NativeUILua/UIMenu/panels/UIMenuStatisticsPanel.lua",
 
-    "NativeUI/UIMenu/UIMenu.lua",
-    "NativeUI/UIMenu/MenuPool.lua",
+    "NativeUILua/UIMenu/UIMenu.lua",
+    "NativeUILua/UIMenu/MenuPool.lua",
 }
 
 client_scripts {
-    'NativeUI/UITimerBar/UITimerBarPool.lua',
+    'NativeUILua/UITimerBar/UITimerBarPool.lua',
 
-    'NativeUI/UITimerBar/items/UITimerBarItem.lua',
-    'NativeUI/UITimerBar/items/UITimerBarProgressItem.lua',
-    'NativeUI/UITimerBar/items/UITimerBarProgressWithIconItem.lua',
+    'NativeUILua/UITimerBar/items/UITimerBarItem.lua',
+    'NativeUILua/UITimerBar/items/UITimerBarProgressItem.lua',
+    'NativeUILua/UITimerBar/items/UITimerBarProgressWithIconItem.lua',
 
 }
 
 client_scripts {
-    'NativeUI/UIProgressBar/UIProgressBarPool.lua',
-    'NativeUI/UIProgressBar/items/UIProgressBarItem.lua',
+    'NativeUILua/UIProgressBar/UIProgressBarPool.lua',
+    'NativeUILua/UIProgressBar/items/UIProgressBarItem.lua',
 }
 
 client_scripts {
-    "NativeUI/NativeUI.lua",
+    "NativeUILua/NativeUILua.lua",
 }
 
 
