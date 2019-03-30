@@ -17,6 +17,11 @@ BlipsBuilder is a dev tool to put some blips easily
 
 - /blipsbuilder in chat to open the menu
 
+## Screenshots
+![screen shot](https://www.noelshack.com/2019-13-6-1553983690-screenshot-4.png)
+![screen shot](https://image.noelshack.com/fichiers/2019/05/5/1548977245-telechargement-3.png)
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
