@@ -1,0 +1,3 @@
+[submodule "NativeUILua"]
+	path = NativeUILua
+	url = https://github.com/iTexZoz/NativeUILua
