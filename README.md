@@ -7,7 +7,7 @@ BlipsBuilder is a dev tool to put some blips easily
 
   - Add, Edit, Remove blips dynamically
   - JSON data to works with all framework and mysql resource
-  - 
+  
 ## Requirements 
 - [Essentialmode](https://essentialmode.com/)
 - It doesnt need anything else to works because it already uses [NativeUI-Reloaded](https://github.com/iTexZoz/NativeUILua-Reloaded) in the resource
