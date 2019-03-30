@@ -21,5 +21,5 @@ BlipsBuilder is a dev tool to put some blips easily
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Thanks
-Thanks to [iTexZoz](https://github.com/iTexZoz)and [Frazzle](https://github.com/FrazzIe) for NativeUI
+Thanks to [iTexZoz](https://github.com/iTexZoz) and [Frazzle](https://github.com/FrazzIe) for NativeUI
 
