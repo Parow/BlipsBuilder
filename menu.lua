@@ -6,7 +6,7 @@
 
 _menuPool = NativeUI.CreatePool()
 _menuPool:RefreshIndex()
-mainBlipMenu = NativeUI.CreateMenu("blipCreator", "Actions available", 5, 200,nil,nil,nil,180,0,0,180)
+mainBlipMenu = NativeUI.CreateMenu("BlipsBuilder", "Actions available", 5, 200,nil,nil,nil,180,0,0,180)
 _menuPool:Add(mainBlipMenu)
 local addBlipMenu = _menuPool:AddSubMenu(mainBlipMenu, "Add a blip","",true,true)
 local editBlipMenu = _menuPool:AddSubMenu(mainBlipMenu, "Edit a blip","",true,true)
