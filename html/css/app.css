@@ -1,0 +1,25 @@
+html { 
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: none;
+
+}
+
+
+.showImage {
+	margin-left:25%;margin-top: 15.3%; margin-right: 6%;padding-top:2%;display: none;
+
+}
+
+.showImage2 {
+	margin-left:25%;margin-top: 15.3%; margin-right: 6%;padding-top:2%;display: none;
+
+}
+
+.showImage3 {
+	margin-left:8%;margin-top: 23.3%; margin-right: 6%;padding-top:2%;display: none;position: static; 
+
+}
