@@ -368,5 +368,9 @@ Citizen.CreateThread(function()
 end)
 DrawBlipMenu()
 
+RegisterNetEvent('bc:OpenMenu')
+AddEventHandler('bc:OpenMenu',function()
 
+    mainBlipMenu:Visible(true)
+end)
 
