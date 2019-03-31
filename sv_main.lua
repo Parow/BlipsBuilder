@@ -5,7 +5,7 @@
 ---------------------------
 
 function GetBlipData()
-	local a = LoadResourceFile("blipCreator", "data/blipData.json")
+	local a = LoadResourceFile("BlipsBuilder", "data/blipData.json")
 	return a and json.decode(a) or {}
 end
 
@@ -19,7 +19,7 @@ AddEventHandler('bc:addBlip', function (data)
     BlipData = GetBlipData()
     print(dump(data))
     table.insert(BlipData,data)
-    SaveResourceFile("blipCreator", "data/blipData.json", json.encode(BlipData))
+    SaveResourceFile("BlipsBuilder", "data/blipData.json", json.encode(BlipData))
 
     TriggerClientEvent("bc:SyncBlips",-1, GetBlipData())
 end)
@@ -29,7 +29,7 @@ AddEventHandler('bc:editBlip', function (i,data)
     print(dump(data))
     BlipData = GetBlipData()
    BlipData[i] = data
-    SaveResourceFile("blipCreator", "data/blipData.json", json.encode(BlipData))
+    SaveResourceFile("BlipsBuilder", "data/blipData.json", json.encode(BlipData))
 
     TriggerClientEvent("bc:SyncBlips",-1, GetBlipData())
 end)
@@ -37,7 +37,7 @@ RegisterServerEvent('bc:deleteBlip')
 AddEventHandler('bc:deleteBlip', function (i)
     BlipData = GetBlipData()
     table.remove(BlipData,i)
-    SaveResourceFile("blipCreator", "data/blipData.json", json.encode(BlipData))
+    SaveResourceFile("BlipsBuilder", "data/blipData.json", json.encode(BlipData))
     TriggerClientEvent("bc:SyncBlips",-1, GetBlipData())
 end)
 RegisterServerEvent('bc:requestSync')
@@ -65,7 +65,7 @@ function dump(o)
 local count = 0
 for _,v in pairs(GetBlipData()) do count = count + 1 end
 
-print("[blipCreator] Successfully loaded: " .. count .. " blip(s).")
+print("[BlipsBuilder] Successfully loaded: " .. count .. " blip(s).")
 
 
 TriggerEvent('es:addGroupCommand', 'blipsbuilder', 'admin', function(source)
