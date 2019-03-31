@@ -514,7 +514,7 @@ client_scripts {
 }
 
 client_scripts {
-    "NativeUILua/NativeUILua.lua",
+    "NativeUILua/NativeUI.lua",
 }
 
 
