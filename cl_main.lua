@@ -43,11 +43,7 @@ AddEventHandler('playerSpawned', function()
 end)
 
 
-RegisterNetEvent('bc:OpenMenu')
-AddEventHandler('bc:OpenMenu',function()
 
-    mainBlipMenu:Visible(true)
-end)
 
 
 
