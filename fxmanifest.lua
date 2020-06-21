@@ -1,7 +1,10 @@
-resource_manifest_version '05cfa83c-a124-4cfa-a768-c24a5811d8f9'
+-- Resource Metadata
+fx_version 'bodacious'
+games { 'gta5' }
 
-name 'NativeUILuaLua-Reloaded'
-description 'NativeUILuaLua-Reloaded is UI library for FiveM designed specifically for making interface based on GTA:Online style. (Base source: https://github.com/FrazzIe/NativeUILuaLua ) | (Base NativeUILua : https://github.com/Guad/NativeUILua) '
+author 'Parow'
+description 'NativeUILuaLua-Reloaded is UI library for FiveM designed specifically for making interface based on GTA:Online style. (Base source: https://github.com/FrazzIe/NativeUILuaLua ) | (Base NativeUILua : https://github.com/Guad/NativeUILua)'
+version '1.0.0'
 
 files {
     'html/images/blips/Blip_1.png',
